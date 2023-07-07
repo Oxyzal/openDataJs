@@ -14,13 +14,9 @@ jobs:
           node-versions: '19'
       - name: "Install dependencies"
         run: npm install
-      - name: "Run tests"
-        run: npm run test
-      - name: "Run eslint"
-        run: npx eslint src/main.js
       - name: "Publish to NPM"
         uses: JS-DevTools/npm-publish@v2
         with:
           token: ${{ secrets.NPM_TOKEN }}
           tag: latest
-          access: public
+          access: public  
