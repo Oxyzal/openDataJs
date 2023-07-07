@@ -1,0 +1,23 @@
+{
+  "name": "opendatajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oxyzal/openDataJs.git"
+  },
+  "author": "Oxyzal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oxyzal/openDataJs/issues"
+  },
+  "homepage": "https://github.com/Oxyzal/openDataJs#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security"
+  }
+}
